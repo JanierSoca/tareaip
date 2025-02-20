@@ -1,0 +1,7 @@
+@startuml
+class Temperatura {
+    - grados_celsius: float
+    + _init_(grados_celsius: float)
+    + get_grados_fahrenheit(): float
+    }
+@enduml
